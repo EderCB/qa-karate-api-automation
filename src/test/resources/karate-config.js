@@ -4,7 +4,7 @@ function fn() {
     baseUrl: 'https://serverest.dev'
   };
   if (env === 'staging') {
-    config.baseUrl = 'https://serverest.staging';
+    config.baseUrl = 'https://serverest.dev';
   }
   return config;
 }
