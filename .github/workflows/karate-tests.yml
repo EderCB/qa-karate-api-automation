@@ -35,7 +35,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: smoke-reports
-          path: target/surefire-reports
+          path: |
+            target/surefire-reports
+            target/karate-reports
 
 
   regression-tests:
@@ -63,5 +65,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: regression-reports
-          path: target/surefire-reports
-        path: target/karate-reports/
+          path: |
+            target/surefire-reports
+            target/karate-reports
