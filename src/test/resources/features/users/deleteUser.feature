@@ -1,3 +1,4 @@
+@regression
 Feature: Delete a user
 Background:
     * url baseUrl

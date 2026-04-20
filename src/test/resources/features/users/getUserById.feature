@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Get user by id
 
 Background:
