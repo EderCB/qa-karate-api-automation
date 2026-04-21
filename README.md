@@ -61,7 +61,7 @@ karate-api-automation/
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/EderCB/qa-karate-api-automation.git
-   cd karate-api-automation
+   cd qa-karate-api-automation
    ```
 
 2. Instala las dependencias:
